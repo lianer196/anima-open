@@ -50,10 +50,11 @@ Both data inputs are obtained independently of this repository:
 ## Catalog extraction
 
 `tools/extract_catalog.py` reads a **decompiled** model table and normalises it.
-It exists to make a data table reviewable and diffable; the output
-(`docs/catalog.json`) contains model ids, resolutions, step counts and artefact
-filenames — configuration metadata, not code. Do not commit extracted CIFAR/
-checkpoint blobs or anything loaded into those graphs.
+It exists to make a data table reviewable and diffable. Its output contains
+model ids, resolutions, step counts and artefact filenames — configuration
+metadata, not code. The output is a local artefact and is git-ignored; do not
+commit it, and never commit checkpoint blobs or anything loaded into those
+graphs.
 
 ## Known gaps
 

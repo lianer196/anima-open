@@ -16,3 +16,4 @@ data/
 *.bin
 *.apk
 *.dex
+docs/catalog.json

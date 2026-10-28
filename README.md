@@ -30,7 +30,7 @@ itself stays out of scope — it is hardware- and artefact-specific.
 | `anima_open/clip_bpe.py` | CLIP-style byte-level BPE tokenizer, 77-token context, `</w>` end-of-word marker, special-token passthrough |
 | `anima_open/lcm.py` | LCM / DDIM step update from a per-step coefficient table (`t`, `aT`, `aPrev`, `cSkip`, `cOut`) |
 | `anima_open/cli.py` | `python3 -m anima_open tokenize` / `schedule` for eyeballing both |
-| `tools/extract_catalog.py` | Reads a decompiled model table and emits normalised `docs/catalog.json` |
+| `tools/extract_catalog.py` | Reads a decompiled model table and emits a normalised `catalog.json` (output is a local artefact, not committed) |
 | `docs/CONTRACT.md` | The reconstructed behavioural contract, field by field |
 | `docs/FINDINGS.md` | How the contract was derived, and what was deliberately not reproduced |
 | `tests/` | 17 tests; the tokenizer is asserted against 8 recorded vectors |

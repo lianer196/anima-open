@@ -117,7 +117,6 @@ def parse_call(call: str) -> dict:
         "grid_h": ints(12),
         "grid_w": ints(13),
         "rope": rope,
-        "source_url": lit(18),
     }
 
 

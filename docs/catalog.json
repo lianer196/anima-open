@@ -1,0 +1,478 @@
+[
+  {
+    "id": "miaomiao8",
+    "title": "miaomiao harem Anima",
+    "subtitle": "8 步蒸馏 · 2B DiT · fp16 纯 NPU",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": 8,
+    "step_choices": [
+      6,
+      8,
+      10,
+      12,
+      16,
+      20
+    ],
+    "resolutions": [
+      [
+        512,
+        512
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_f16_v8.npug",
+      "dva2_f16_v8.npug",
+      "dva3_f16_v8.npug",
+      "ditc1c_f16_v8.npug",
+      "ditc2c_f16_v8.npug",
+      "dvb1_f16_v8.npug",
+      "dvb2_f16_v8.npug"
+    ],
+    "vae": "vaedec_64.npug",
+    "text_weights": "text.bin",
+    "mods_prefix": "mods",
+    "grid_h": 0,
+    "grid_w": 0,
+    "rope": null,
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  },
+  {
+    "id": "miaomiao8w8",
+    "title": "MiaoMiao Harem Anima",
+    "subtitle": "",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": 8,
+    "step_choices": [
+      6,
+      8,
+      10,
+      12
+    ],
+    "resolutions": [
+      [
+        512,
+        512
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_w8_q1.npug",
+      "dva2_w8_q1.npug",
+      "dva3_w8_q1.npug",
+      "ditc1c_w8_q1.npug",
+      "ditc2c_w8_q1.npug",
+      "dvb1_w8_q1.npug",
+      "dvb2_w8_q1.npug"
+    ],
+    "vae": "vaedec_64.npug",
+    "text_weights": "text.bin",
+    "mods_prefix": "modsq",
+    "grid_h": 0,
+    "grid_w": 0,
+    "rope": null,
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  },
+  {
+    "id": "miaomiao8w16_3072",
+    "title": "miaomiao harem Anima 768×1024",
+    "subtitle": "8 步蒸馏 · 2B DiT · 768×1024",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": 8,
+    "step_choices": [
+      6,
+      8,
+      10,
+      12
+    ],
+    "resolutions": [
+      [
+        768,
+        1024
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_w8_w16L3072.npug",
+      "dva2_w8_w16L3072.npug",
+      "dva3_w8_w16L3072.npug",
+      "ditc1c_w8_w16L3072.npug",
+      "ditc2c_w8_w16L3072.npug",
+      "dvb1_w8_w16L3072.npug",
+      "dvb2_w8_w16L3072.npug"
+    ],
+    "vae": "vaedec_128x96.npug",
+    "text_weights": "text.bin",
+    "mods_prefix": "modsq16",
+    "grid_h": 64,
+    "grid_w": 48,
+    "rope": "rope_64x48.bin",
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  },
+  {
+    "id": "miaomiao8w16_1mp34",
+    "title": "MiaoMiao Harem Anima",
+    "subtitle": "1MP 画质 · 任意比例 · 一次下载",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": 8,
+    "step_choices": [],
+    "resolutions": [
+      [
+        768,
+        1024
+      ],
+      [
+        1024,
+        768
+      ],
+      [
+        576,
+        1024
+      ],
+      [
+        1024,
+        576
+      ],
+      [
+        896,
+        1152
+      ],
+      [
+        1152,
+        896
+      ],
+      [
+        768,
+        1344
+      ],
+      [
+        1344,
+        768
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_w8_w16L4032s4.npug",
+      "dva2_w8_w16L4032s4.npug",
+      "dva3_w8_w16L4032s4.npug",
+      "ditc1c_w8_w16L4032s4.npug"
+    ],
+    "vae": null,
+    "text_weights": "text.bin",
+    "mods_prefix": "modsq16s4_4032",
+    "grid_h": 72,
+    "grid_w": 56,
+    "rope": "rope_72x56.bin",
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  },
+  {
+    "id": "miaomiao8w16_2304",
+    "title": "miaomiao harem Anima 576×1024",
+    "subtitle": "8 步蒸馏 · 2B DiT · 9:16",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": null,
+    "step_choices": [
+      6,
+      8,
+      10,
+      12
+    ],
+    "resolutions": [
+      [
+        576,
+        1024
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_w8_w16L2304.npug",
+      "dva2_w8_w16L2304.npug",
+      "dva3_w8_w16L2304.npug",
+      "ditc1c_w8_w16L2304.npug",
+      "ditc2c_w8_w16L2304.npug",
+      "dvb1_w8_w16L2304.npug",
+      "dvb2_w8_w16L2304.npug"
+    ],
+    "vae": "vaedec_128x72.npug",
+    "text_weights": "text.bin",
+    "mods_prefix": "modsq16_2304",
+    "grid_h": 64,
+    "grid_w": 36,
+    "rope": "rope_64x36.bin",
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  },
+  {
+    "id": "miaomiao8w16s4_1024",
+    "title": "MiaoMiao Harem Anima",
+    "subtitle": "",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": null,
+    "step_choices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "resolutions": [
+      [
+        512,
+        512
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_w8_w16L1024s4.npug",
+      "dva2_w8_w16L1024s4.npug",
+      "dva3_w8_w16L1024s4.npug",
+      "ditc1c_w8_w16L1024s4.npug"
+    ],
+    "vae": "vaedec_64.npug",
+    "text_weights": "text.bin",
+    "mods_prefix": "modsq16s4_1024",
+    "grid_h": 32,
+    "grid_w": 32,
+    "rope": "rope_32x32.bin",
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  },
+  {
+    "id": "miaomiao8w16s4_768",
+    "title": "MiaoMiao Harem Anima",
+    "subtitle": "",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": 8,
+    "step_choices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "resolutions": [
+      [
+        768,
+        768
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_w8_w16L2304r.npug",
+      "dva2_w8_w16L2304r.npug",
+      "dva3_w8_w16L2304r.npug",
+      "ditc1c_w8_w16L2304r.npug"
+    ],
+    "vae": "vaedec_96.npug",
+    "text_weights": "text.bin",
+    "mods_prefix": "modsq16s4_2304",
+    "grid_h": 48,
+    "grid_w": 48,
+    "rope": "rope_48x48.bin",
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  },
+  {
+    "id": "miaomiao8w16s4_3072",
+    "title": "MiaoMiao Harem Anima",
+    "subtitle": "",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": 8,
+    "step_choices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "resolutions": [
+      [
+        768,
+        1024
+      ],
+      [
+        1024,
+        768
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_w8_w16s4.npug",
+      "dva2_w8_w16s4.npug",
+      "dva3_w8_w16s4.npug",
+      "ditc1c_w8_w16s4.npug"
+    ],
+    "vae": "vaedec_128x96.npug",
+    "text_weights": "text.bin",
+    "mods_prefix": "modsq16s4_3072",
+    "grid_h": 64,
+    "grid_w": 48,
+    "rope": "rope_64x48.bin",
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  },
+  {
+    "id": "miaomiao8w16s2_2304",
+    "title": "MiaoMiao Harem Anima",
+    "subtitle": "",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": 8,
+    "step_choices": [
+      6,
+      8,
+      10,
+      12
+    ],
+    "resolutions": [
+      [
+        576,
+        1024
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_w8_w16L2304s2.npug",
+      "dva2_w8_w16L2304s2.npug"
+    ],
+    "vae": "vaedec_128x72.npug",
+    "text_weights": "text.bin",
+    "mods_prefix": "modsq16s2_2304",
+    "grid_h": 64,
+    "grid_w": 36,
+    "rope": "rope_64x36.bin",
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  },
+  {
+    "id": "miaomiao8f16_3072",
+    "title": "MiaoMiao Harem Anima",
+    "subtitle": "",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": 8,
+    "step_choices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "resolutions": [
+      [
+        768,
+        1024
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_f16_f16L3072f.npug",
+      "dva2_f16_f16L3072f.npug",
+      "dva3_f16_f16L3072f.npug",
+      "ditc1c_f16_f16L3072f.npug"
+    ],
+    "vae": "vaedec_128x96.npug",
+    "text_weights": "text.bin",
+    "mods_prefix": "modsf16_3072",
+    "grid_h": 64,
+    "grid_w": 48,
+    "rope": "rope_64x48.bin",
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  },
+  {
+    "id": "miaomiao8f16_1024",
+    "title": "MiaoMiao Harem Anima",
+    "subtitle": "",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": 8,
+    "step_choices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "resolutions": [
+      [
+        512,
+        512
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_f16_f16L1024s4.npug",
+      "dva2_f16_f16L1024s4.npug",
+      "dva3_f16_f16L1024s4.npug",
+      "ditc1c_f16_f16L1024s4.npug"
+    ],
+    "vae": "vaedec_64.npug",
+    "text_weights": "text.bin",
+    "mods_prefix": "modsf16_1024",
+    "grid_h": 32,
+    "grid_w": 32,
+    "rope": "rope_32x32.bin",
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  },
+  {
+    "id": "miaomiao8w16s4_4096",
+    "title": "MiaoMiao Harem Anima",
+    "subtitle": "",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": 8,
+    "step_choices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "resolutions": [
+      [
+        1024,
+        1024
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_w8_w16L4096.npug",
+      "dva2_w8_w16L4096.npug",
+      "dva3_w8_w16L4096.npug",
+      "ditc1c_w8_w16L4096.npug"
+    ],
+    "vae": null,
+    "text_weights": "text.bin",
+    "mods_prefix": "modsq16s4_4096",
+    "grid_h": 64,
+    "grid_w": 64,
+    "rope": "rope_64x64.bin",
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  },
+  {
+    "id": "miaomiao8w8s4_3072",
+    "title": "MiaoMiao Harem Anima",
+    "subtitle": "",
+    "arch": "Anima-Turbo (28 blocks, D=2048)",
+    "native_steps": 8,
+    "step_choices": [
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12
+    ],
+    "resolutions": [
+      [
+        768,
+        1024
+      ]
+    ],
+    "dit_graphs": [
+      "dva1_w8_w8L3072f.npug",
+      "dva2_w8_w8L3072f.npug",
+      "dva3_w8_w8L3072f.npug",
+      "ditc1c_w8_w8L3072f.npug"
+    ],
+    "vae": "vaedec_128x96.npug",
+    "text_weights": "text.bin",
+    "mods_prefix": "modsq8f_3072",
+    "grid_h": 64,
+    "grid_w": 48,
+    "rope": "rope_64x48.bin",
+    "source_url": "https://civitai.red/api/download/models/3125933?fileId=3006397"
+  }
+]

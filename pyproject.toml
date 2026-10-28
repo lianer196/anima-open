@@ -9,7 +9,7 @@ description = "Clean-room tokenisation and LCM scheduling for on-device diffusio
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "Apache-2.0" }
-authors = [{ name = "<your name>" }]
+authors = [{ name = "lianer196" }]
 classifiers = [
   "License :: OSI Approved :: Apache Software License",
   "Programming Language :: Python :: 3 :: Only",
@@ -17,7 +17,7 @@ classifiers = [
 ]
 
 [project.urls]
-Homepage = "https://github.com/<you>/anima-open"
+Homepage = "https://github.com/lianer196/anima-open"
 
 [tool.setuptools]
 packages = ["anima_open"]

@@ -38,7 +38,7 @@ itself stays out of scope — it is hardware- and artefact-specific.
 ## Install / run
 
 ```bash
-git clone https://github.com/<you>/anima-open && cd anima-open
+git clone https://github.com/lianer196/anima-open && cd anima-open
 python3 -m unittest discover -s tests -v   # no dependencies required
 
 python3 -m anima_open tokenize "1girl, silver hair, night city"
